@@ -17,7 +17,7 @@
             <div class="form-group">
           
                 <img src="{{asset('images/phone/')}}/{{$product->image}}" alt="" width="100" class="img-fluid"><br>
-                <label for="editproduct">Product Nam</label>
+                <label for="editproduct">Product Name</label>
                 <input class="form-control" type="text" id="productName" name="productName" required value="{{$product->name}}">
             </div>
             <div class="form-group">
